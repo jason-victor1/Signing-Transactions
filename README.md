@@ -17,7 +17,10 @@ When signing a transaction on the blockchain, data is digitally signed using the
 The below shows the private key hashed with the message data to generate a message signature. 
 ![Screenshot of Signing a Transaction](https://raw.githubusercontent.com/jason-victor1/Signing-Transactions/874729899776c33d444cb2828f31eec623f82a54/Signing%20a%20transaction.png)
 
-Anyone can verify the transaction's validity by comparing the message signature with the public key. This ensures the transaction is authorized by the private key owner without revealing the private key itself.
+The below shows that anyone can verify the transaction's validity by comparing the message signature with the public key. This ensures the transaction is authorized by the private key owner without revealing the private key itself.
+
+![Screenshot of Verification Process](https://github.com/jason-victor1/Signing-Transactions/blob/main/verification.png?raw=true)
+
 
 ## Importance of Hiding Private Keys
 Every Metamask account has a private key accessible through Account Details > Show Private Key, protected by a password. Keeping your private key safe is crucial, as anyone with access can sign and perform transactions on your behalf. This could potentially compromise your assets.
